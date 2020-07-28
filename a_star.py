@@ -128,12 +128,5 @@ class Astar(object):
 if __name__ == "__main__":
     file_name = input("Please Enter your file name(default: in_aStar.txt): ") or 'in_aStar.txt'
     start_node = input("What is your start node? ")
-    # print()
-    # aa = list('ABCDEFGHIJKLMNOP')
-    # for cha in aa:
-    #     print('Start Node:', cha)
-    #     start_node = cha
-    #     Astar(file_name, start_node).run()
-    #     print()
 
     Astar(file_name, start_node).run()
